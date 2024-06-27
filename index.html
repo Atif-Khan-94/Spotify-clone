@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+</head>
+<link rel="stylesheet" href="spotify .css">
+<link rel="stylesheet" href="utility.css">
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left  bg-black">
+            <div class="close">
+                <img class="invert" src="cross.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li class="symbol">
+                        <img class="invert" src="home.svg" alt="home">
+                        Home
+                    </li>
+                    <li class="symbol">
+                        <img class="invert" src="search.svg" alt="search">
+                        Search
+                    </li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+
+                        Your library
+                    </h2>
+
+                </div>
+                <div class="songslists">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="right home bg-grey rounded  ">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerCont">
+                        <img class="invert hamburger" src="hamburger.svg" alt="">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#fffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+
+                </div>
+            </div>
+
+
+            <div class="spotify-playlists">
+                <h1>
+                    Spotify Playlists
+                </h1>
+                <div class="cardcontainer">
+                    <div data-folder="sad" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02f047039273f69d31b3208fa4" alt="">
+                        <h2>Sad Songs</h2>
+                        <p>shy martin</p>
+                        <p>2020</p>
+                    </div>
+
+                    <div data-folder="gym" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i2o.scdn.co/image/ab67706c0000cfa3d25826893b756f4f616494b3" alt="">
+                        <h2>Workout</h2>
+                        <p>listen to this </p>
+                        <p>playlists for a good pump</p>
+                    </div>
+                    <div data-folder="Arjit" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273c486f7fc6299f158d632e613" alt="">
+                        <h2>Arjit singh</h2>
+                        <p>listen for </p>
+                        <p>broken strings</p>
+                    </div>
+
+                    <div data-folder="pakistan" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029ba9f91ab250b7d756b61a68" alt="">
+                        <h2>Pakistan Osts</h2>
+                        <p>By famous dramas</p>
+                        <p>of Pakistan</p>
+                    </div>
+                    <div data-folder="motivational" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273be1b86eabcb8836249ce4e2e" alt="">
+                        <h2>Motivational songs</h2>
+                        <p>by shahmeer</p>
+                        <p>2024</p>
+                    </div>
+
+                    <div data-folder="sidhu" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67656300005f1fc583ae22380a47320bbf92f2" alt="">
+                        <h2>sidhu moosewala</h2>
+                        <p>Artist</p>
+                        <p>2024</p>
+                    </div>
+                    <div data-folder="animal" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c1f94f6a5a709197444c1c6ed"
+                            alt="">
+                        <h2>Animal</h2>
+                        <p>All songs</p>
+                        <p>in playlists</p>
+                    </div>
+
+                    <div data-folder="kk" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273f8ef6c7a66a030647287e25b" alt="">
+                        <h2>Its KK</h2>
+                        <p>Everyone hits </p>
+                        <p>songs</p>
+                    </div>
+                    <div data-folder="shubh" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051748f553f96d564d1005a92d131" alt="">
+                        <h2>Shubh</h2>
+                        <p>hits and popular</p>
+                        <p>songs</p>
+                    </div>
+
+                    <div data-folder="rahat" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174ac45eaf028dc58810df0f382" alt="">
+                        <h2>Rahat Fateh Ali khan</h2>
+                        <p>big inspired songs</p>
+                        <p>2024</p>
+                    </div>
+                    <div data-folder="love" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://t.scdn.co/media/derived/romance-274x274_8100794c94847b6d27858bed6fa4d91b_0_0_274_274.jpg" alt="">
+                        <h2>love</h2>
+                        <p> popular</p>
+                        <p>songs</p>
+                    </div>
+
+                    <div data-folder="jawan" class="card">
+                        <div class="play">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="13"
+                                width="16" class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273e452a6e11147f3e56aee6f5b" alt="">
+                        <h2>Jawan</h2>
+                        <p>All songs</p>
+                        <p>2024</p>
+                    </div>
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="previous.svg" alt="">
+                            <img id="play" src="play.svg" alt="">
+                            <img id="next" src="nextsong.svg" alt="">
+                        </div>
+                        <div class="voltime">
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
